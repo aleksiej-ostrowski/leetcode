@@ -41,7 +41,7 @@ type Point struct {
 	x int
 	y int
 }
-
+// https://www.educative.io/edpresso/how-to-implement-a-stack-in-golang
 func (s *Stack) IsEmpty() bool {
 	return len(*s) == 0
 }
@@ -67,6 +67,7 @@ type Point3D struct {
 	z int
 }
 
+// // https://rosettacode.org/wiki/Sorting_algorithms/Radix_sort#Go
 func radix_sort(a []int) []int {
 	const highBit = -1 << 31
 

@@ -1,0 +1,58 @@
+/*
+
+# ------------------------------ #
+#                                #
+#  version 0.0.1                 #
+#                                #
+#  Aleksiej Ostrowski, 2022      #
+#                                #
+#  https://aleksiej.com          #
+#                                #
+# ------------------------------ #  
+
+*/
+
+package main
+
+import (
+	"fmt"
+    // "math"
+)
+
+func div10(dividend int32) int32 {
+    var invDivisor int64 = 0x1999999A
+    return int32((invDivisor * int64(dividend)) >> 32)
+}
+
+func isPalindrome(x int) bool {
+
+    if x < 0 {
+        return false
+    }
+
+    nums := []int8{}
+
+    for (x > 0) {
+        q := int(div10(int32(x)))
+        r := x - (q << 3 + q << 1)
+        nums = append(nums, int8(r)) // int8(x % 10))
+        //x /= 10
+        x = q
+    }
+
+    sum := 0
+    for i, j := 0, len(nums) - 1; i < j; i, j = i + 1, j - 1 {
+        // fmt.Println("nums[", i, "] = ", nums[i], " nums[", j, "] = ", nums[j])
+        if nums[i] == nums[j] {
+            sum += 1
+        }
+    }
+
+    // fmt.Println("len(nums) = ", len(nums), " sum = ", sum)
+
+    return (len(nums) >> 1) == sum
+}
+
+func main() {
+	fmt.Println(isPalindrome(123321))
+}

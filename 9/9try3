@@ -30,9 +30,8 @@ func isPalindrome(x int) bool {
     x_ := x
 
     for (x_ > 0) {
-        a := x_ / 10
-        new_x = (new_x << 3 + new_x << 1) + (x_ - (a << 3 + a << 1))
-        x_ = a 
+        new_x = (new_x << 3 + new_x << 1) + x_ % 10
+        x_ /= 10
     }
 
     return new_x == x 

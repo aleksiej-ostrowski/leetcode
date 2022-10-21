@@ -25,17 +25,24 @@ func isPalindrome(x int) bool {
         return false
     }
 
-    var new_x int
+    nums := []int8{}
 
-    x_ := x
-
-    for (x_ > 0) {
-        a := x_ / 10
-        new_x = (new_x << 3 + new_x << 1) + (x_ - (a << 3 + a << 1))
-        x_ = a 
+    for (x > 0) {
+        nums = append(nums, int8(x % 10))
+        x /= 10
     }
 
-    return new_x == x 
+    sum := 0
+    for i, j := 0, len(nums) - 1; i < j; i, j = i + 1, j - 1 {
+        // fmt.Println("nums[", i, "] = ", nums[i], " nums[", j, "] = ", nums[j])
+        if nums[i] == nums[j] {
+            sum += 1
+        }
+    }
+
+    // fmt.Println("len(nums) = ", len(nums), " sum = ", sum)
+
+    return (len(nums) >> 1) == sum
 }
 
 func main() {

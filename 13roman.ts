@@ -7,9 +7,10 @@ function romanToInt(s: string): number {
   let old_level = 1;
   let max_level = -1;
 
-  for (const el of s.split("").reverse()) {
+  //for (const el of s.split("").reverse()) {
+  for (let i = s.length - 1; i >= 0; i--) {    
     // console.log(el)
-    switch (el) {
+    switch (s[i]) {
       case "I": {
         res = max_level > 1 ? res - 1 : res + 1;
         old_level = 1;

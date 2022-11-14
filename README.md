@@ -14,6 +14,8 @@ Some of my tasks
 | 21. Merge Two Sorted Lists | https://leetcode.com/problems/merge-two-sorted-lists | 
 | 23. Merge k Sorted Lists | https://leetcode.com/problems/merge-k-sorted-lists |
 | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array |
+| 27. Remove Element | https://leetcode.com/problems/remove-element |
+| 35. Search Insert Position | https://leetcode.com/problems/search-insert-position |
 | 42. Trapping Rain Water | https://leetcode.com/problems/trapping-rain-water | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |

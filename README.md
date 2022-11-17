@@ -19,6 +19,7 @@ Some of my tasks
 | 42. Trapping Rain Water | https://leetcode.com/problems/trapping-rain-water | 
 | 58. Length of Last Word | https://leetcode.com/problems/length-of-last-word | 
 | 66. Plus One | https://leetcode.com/problems/plus-one | 
+| 67. Add Binary | https://leetcode.com/problems/add-binary | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

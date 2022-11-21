@@ -21,6 +21,7 @@ Some of my tasks
 | 66. Plus One | https://leetcode.com/problems/plus-one | 
 | 67. Add Binary | https://leetcode.com/problems/add-binary | 
 | 69. Sqrt(x) | https://leetcode.com/problems/sqrtx | 
+| 70. Climbing Stairs | https://leetcode.com/problems/climbing-stairs | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

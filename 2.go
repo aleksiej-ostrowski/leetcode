@@ -16,12 +16,12 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 type ListNode struct {
-    Val  int
-    Next *ListNode
+	Val  int
+	Next *ListNode
 }
 
 /*
@@ -66,114 +66,114 @@ func reverseList(l *ListNode) *ListNode {
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
-    if (l1 == nil) || (l2 == nil) {
-        return nil
-    }
+	if (l1 == nil) || (l2 == nil) {
+		return nil
+	}
 
-    x1 := l1
-    x2 := l2
+	x1 := l1
+	x2 := l2
 
-    var newL = &ListNode{0, nil}
+	var newL = &ListNode{0, nil}
 
-    var start = newL
+	var start = newL
 
-    flag1 := true
-    flag2 := true
+	flag1 := true
+	flag2 := true
 
-    extra := 0
+	extra := 0
 
-    for {
+	for {
 
-        newVal := extra
+		newVal := extra
 
-        if flag1 {
-            newVal += x1.Val
-        }
+		if flag1 {
+			newVal += x1.Val
+		}
 
-        if flag2 {
-            newVal += x2.Val
-        }
+		if flag2 {
+			newVal += x2.Val
+		}
 
-        extra = 0
+		extra = 0
 
-        if newVal > 9 {
-            extra = 1
-            newVal -= 10
-        }
+		if newVal > 9 {
+			extra = 1
+			newVal -= 10
+		}
 
-        newL.Val = newVal
+		newL.Val = newVal
 
-        if flag1 {
-            x1 = x1.Next
-            flag1 = x1 != nil
-        }
+		if flag1 {
+			x1 = x1.Next
+			flag1 = x1 != nil
+		}
 
-        if flag2 {
-            x2 = x2.Next
-            flag2 = x2 != nil
-        }
+		if flag2 {
+			x2 = x2.Next
+			flag2 = x2 != nil
+		}
 
-        if flag1 || flag2 || (extra > 0) {
-            newL.Next = &ListNode{0, nil}
-            newL = newL.Next
-        } else {
-            break
-        }
-    }
+		if flag1 || flag2 || (extra > 0) {
+			newL.Next = &ListNode{0, nil}
+			newL = newL.Next
+		} else {
+			break
+		}
+	}
 
-    return start
+	return start
 
 }
 
 func ListCreate(a []int) *ListNode {
 
-    var l = &ListNode{0, nil}
+	var l = &ListNode{0, nil}
 
-    var start = l
+	var start = l
 
-    for i, s := range a {
+	for i, s := range a {
 
-        l.Val = s
-        if i != len(a)-1 {
-            l.Next = &ListNode{0, nil}
-            l = l.Next
-        }
-    }
+		l.Val = s
+		if i != len(a)-1 {
+			l.Next = &ListNode{0, nil}
+			l = l.Next
+		}
+	}
 
-    return start
+	return start
 }
 
 func printList(l *ListNode) {
 
-    x := l
+	x := l
 
-    for {
+	for {
 
-        if x == nil {
-            break
-        }
+		if x == nil {
+			break
+		}
 
-        fmt.Print(x.Val, " ")
+		fmt.Print(x.Val, " ")
 
-        x = x.Next
-    }
+		x = x.Next
+	}
 
-    fmt.Println()
+	fmt.Println()
 
 }
 
 func main() {
 
-    a := []int{2, 4, 3}
-    b := []int{5, 6, 4}
+	a := []int{2, 4, 3}
+	b := []int{5, 6, 4}
 
-    l1 := ListCreate(a)
-    l2 := ListCreate(b)
+	l1 := ListCreate(a)
+	l2 := ListCreate(b)
 
-    printList(l1)
-    printList(l2)
+	printList(l1)
+	printList(l2)
 
-    printList(addTwoNumbers(l1, l2))
+	printList(addTwoNumbers(l1, l2))
 
-    // 7 0 8
+	// 7 0 8
 }

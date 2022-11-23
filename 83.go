@@ -8,14 +8,14 @@
 #                                #
 #  https://aleksiej.com          #
 #                                #
-# ------------------------------ #  
+# ------------------------------ #
 
 */
 
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 /**
@@ -23,85 +23,83 @@ import (
 **/
 
 type ListNode struct {
-    Val int
-    Next *ListNode
+	Val  int
+	Next *ListNode
 }
 
 func ListCreate(a []int) *ListNode {
 
-    var l = &ListNode{0, nil}
+	var l = &ListNode{0, nil}
 
-    var start = l
+	var start = l
 
-    for i, s := range a {
+	for i, s := range a {
 
-        l.Val = s
-        if i != len(a)-1 {
-            l.Next = &ListNode{0, nil}
-            l = l.Next
-        }
-    }
+		l.Val = s
+		if i != len(a)-1 {
+			l.Next = &ListNode{0, nil}
+			l = l.Next
+		}
+	}
 
-    return start
+	return start
 }
-
 
 func printList(l *ListNode) {
 
-    x := l
-    for {
-        if x == nil {
-            break
-        }
-        fmt.Print(x.Val, " ")
-        x = x.Next
-    }
+	x := l
+	for {
+		if x == nil {
+			break
+		}
+		fmt.Print(x.Val, " ")
+		x = x.Next
+	}
 
-    fmt.Println()
+	fmt.Println()
 }
-
 
 func deleteDuplicates(head *ListNode) *ListNode {
 
-    if (head == nil) {
-        return nil
-    }
+	if head == nil {
+		return nil
+	}
 
-    var newL = &ListNode{head.Val, nil}
+	var newL = &ListNode{head.Val, nil}
 
-    var start = newL
+	var start = newL
 
-    x := head.Next
+	x := head.Next
 
-    for {
+	for {
 
-        if x == nil {
-            break
-        }
+		if x == nil {
+			break
+		}
 
-        if newL.Val != x.Val {
-            newL.Next = &ListNode{x.Val, nil}
-            newL = newL.Next
-        }
+		if newL.Val != x.Val {
+			newL.Next = &ListNode{x.Val, nil}
+			newL = newL.Next
+		}
 
-        x = x.Next
-    }
+		x = x.Next
+	}
 
-    return start
+	return start
 }
 
 func main() {
 
-    a := []int{1,1,1,1,1,2,2,3,3,3,3}
+	a := []int{1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3}
 
-    l := ListCreate(a)
+	l := ListCreate(a)
 
-    printList(l)
+	printList(l)
 
-    new_a := deleteDuplicates(l)
+	new_a := deleteDuplicates(l)
 
-    printList(new_a)
-    printList(l)
+	printList(new_a)
+	printList(l)
 
 	fmt.Println("ok")
 }

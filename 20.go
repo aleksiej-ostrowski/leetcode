@@ -44,7 +44,7 @@ func isValid(s string) bool {
 
 	var stack Stack
 
-    // fmt.Println(s)
+	// fmt.Println(s)
 
 	for _, el := range s {
 

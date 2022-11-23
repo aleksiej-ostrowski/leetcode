@@ -41,6 +41,7 @@ type Point struct {
 	x int
 	y int
 }
+
 // https://www.educative.io/edpresso/how-to-implement-a-stack-in-golang
 func (s *Stack) IsEmpty() bool {
 	return len(*s) == 0
@@ -200,7 +201,7 @@ func trapRainWater(heightMap [][]int) int {
 		}
 
 		for i, el := range ad {
-			for j, _ := range el {
+			for j := range el {
 				ad[i][j] = 0
 			}
 		}

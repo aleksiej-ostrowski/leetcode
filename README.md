@@ -25,6 +25,7 @@ Some of my tasks
 | 83. Remove Duplicates from Sorted List | https://leetcode.com/problems/remove-duplicates-from-sorted-list | 
 | 88. Merge Sorted Array | https://leetcode.com/problems/merge-sorted-array | 
 | 94. Binary Tree Inorder Traversal | https://leetcode.com/problems/binary-tree-inorder-traversal | 
+| 100. Same Tree | https://leetcode.com/problems/same-tree | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

@@ -15,21 +15,21 @@
 package main
 
 import (
-    "fmt"
-    // "sync"
+	"fmt"
+	// "sync"
 )
 
 /**
  * Definition for a binary tree node.
-*/
+ */
 
 type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
-/* 
+/*
 // from #94
 func inorderTraversal(root *TreeNode) []int {
 	var res []int
@@ -69,21 +69,21 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 		return true
 	}
 	curr1 := p
-    curr2 := q
+	curr2 := q
 	for {
 		if (curr1 == nil) || (curr2 == nil) {
-            if curr1 != curr2 {
-                return false
-            }    
+			if curr1 != curr2 {
+				return false
+			}
 			break
 		}
 		if (curr1.Left == nil) || (curr2.Left == nil) {
-            if curr1.Left != curr2.Left {
-                return false
-            }    
-            if curr1.Val != curr2.Val {
-                return false
-            }
+			if curr1.Left != curr2.Left {
+				return false
+			}
+			if curr1.Val != curr2.Val {
+				return false
+			}
 			curr1 = curr1.Right
 			curr2 = curr2.Right
 		} else {
@@ -91,21 +91,21 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 			pre2 := curr2.Left
 			for {
 				if (pre1.Right == nil) || (pre2.Right == nil) {
-                    if pre1.Right != pre2.Right {
-                        return false
-                    }    
+					if pre1.Right != pre2.Right {
+						return false
+					}
 					break
 				}
 				pre1 = pre1.Right
 				pre2 = pre2.Right
 			}
 
-            pre1.Right = curr1
+			pre1.Right = curr1
 			temp1 := curr1
 			curr1 = curr1.Left
 			temp1.Left = nil
 
-            pre2.Right = curr2
+			pre2.Right = curr2
 			temp2 := curr2
 			curr2 = curr2.Left
 			temp2.Left = nil
@@ -127,12 +127,12 @@ func isSameTree2(p *TreeNode, q *TreeNode) bool {
     go func(tree *TreeNode, arr *[]int) {
         defer wg.Done()
         *arr = inorderTraversal(tree)
-    }(p, &pi) 
+    }(p, &pi)
 
     go func(tree *TreeNode, arr *[]int) {
         defer wg.Done()
         *arr = inorderTraversal(tree)
-    }(q, &qi)    
+    }(q, &qi)
 
     wg.Wait()
 

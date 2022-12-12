@@ -32,6 +32,7 @@ Some of my tasks
 | 110. Balanced Binary Tree | https://leetcode.com/problems/balanced-binary-tree | 
 | 111. Minimum Depth of Binary Tree | https://leetcode.com/problems/minimum-depth-of-binary-tree | 
 | 112. Path Sum | https://leetcode.com/problems/path-sum | 
+| 118. Pascal's Triangle | https://leetcode.com/problems/pascals-triangle | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

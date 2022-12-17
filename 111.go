@@ -28,15 +28,14 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-
 // https://leetcode.com/problems/minimum-depth-of-binary-tree/solutions/36050/my-simple-recursive-python-solution/
 
 func min(a, b int) int {
-    if a < b {
-        return a
-    } else {
-        return b
-    }
+	if a < b {
+		return a
+	} else {
+		return b
+	}
 }
 
 func minDepth(root *TreeNode) int {
@@ -45,15 +44,15 @@ func minDepth(root *TreeNode) int {
 		return 0
 	}
 
-    if root.Left == nil {
-        return 1 + minDepth(root.Right)
-    } 
-    
-    if root.Right == nil {
-        return 1 + minDepth(root.Left)
-    }
+	if root.Left == nil {
+		return 1 + minDepth(root.Right)
+	}
 
-    return 1 + min(minDepth(root.Left), minDepth(root.Right)) 
+	if root.Right == nil {
+		return 1 + minDepth(root.Left)
+	}
+
+	return 1 + min(minDepth(root.Left), minDepth(root.Right))
 }
 
 func main() {

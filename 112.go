@@ -30,15 +30,15 @@ type TreeNode struct {
 
 func search_recc(root *TreeNode, sum int, targetSum int) bool {
 
-    if (root != nil) {
-	    if (root.Left == nil) && (root.Right == nil) {
-		    return sum + root.Val == targetSum
-	    }
-    } else {
-        return false
-    }
-   
-    val := sum + root.Val
+	if root != nil {
+		if (root.Left == nil) && (root.Right == nil) {
+			return sum+root.Val == targetSum
+		}
+	} else {
+		return false
+	}
+
+	val := sum + root.Val
 
 	c1 := search_recc(root.Left, val, targetSum)
 	c2 := search_recc(root.Right, val, targetSum)
@@ -46,12 +46,10 @@ func search_recc(root *TreeNode, sum int, targetSum int) bool {
 	return c1 || c2
 }
 
-
 func hasPathSum(root *TreeNode, targetSum int) bool {
 
 	return search_recc(root, 0, targetSum)
 }
-
 
 func main() {
 	tree := &TreeNode{0, nil, nil}

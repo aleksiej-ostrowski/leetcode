@@ -37,6 +37,7 @@ Some of my tasks
 | 121. Best Time to Buy and Sell Stock | https://leetcode.com/problems/best-time-to-buy-and-sell-stock | 
 | 125. Valid Palindrome | https://leetcode.com/problems/valid-palindrome | 
 | 136. Single Number | https://leetcode.com/problems/single-number | 
+| 141. Linked List Cycle | https://leetcode.com/problems/linked-list-cycle | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

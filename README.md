@@ -38,6 +38,7 @@ Some of my tasks
 | 125. Valid Palindrome | https://leetcode.com/problems/valid-palindrome | 
 | 136. Single Number | https://leetcode.com/problems/single-number | 
 | 141. Linked List Cycle | https://leetcode.com/problems/linked-list-cycle | 
+| 144. Binary Tree Preorder Traversal | https://leetcode.com/problems/binary-tree-preorder-traversal | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

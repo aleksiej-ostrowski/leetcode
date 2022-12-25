@@ -16,25 +16,25 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func postorderTraversal_recc(root *TreeNode) []int {    
-    if root == nil {    
-        return []int{}    
-    }    
-    var res []int    
-    if root.Left != nil {    
-        c1 := postorderTraversal_recc(root.Left)    
-        res = append(res, c1...)    
-    }    
-    if root.Right != nil {    
-        c2 := postorderTraversal_recc(root.Right)    
-        res = append(res, c2...)    
-    }    
-    res = append(res, root.Val)    
-    return res   
+func postorderTraversal_recc(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
+	var res []int
+	if root.Left != nil {
+		c1 := postorderTraversal_recc(root.Left)
+		res = append(res, c1...)
+	}
+	if root.Right != nil {
+		c2 := postorderTraversal_recc(root.Right)
+		res = append(res, c2...)
+	}
+	res = append(res, root.Val)
+	return res
 }
 
 func postorderTraversal(root *TreeNode) []int {
-    return postorderTraversal_recc(root)
+	return postorderTraversal_recc(root)
 }
 
 func main() {

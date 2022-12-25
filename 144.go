@@ -57,14 +57,14 @@ func preorderTraversal_recc(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}
-    var res []int
-    res = append(res, root.Val)
+	var res []int
+	res = append(res, root.Val)
 	if root.Left != nil {
-        c1 := preorderTraversal_recc(root.Left)
+		c1 := preorderTraversal_recc(root.Left)
 		res = append(res, c1...)
 	}
 	if root.Right != nil {
-        c2 := preorderTraversal_recc(root.Right)
+		c2 := preorderTraversal_recc(root.Right)
 		res = append(res, c2...)
 	}
 	return res

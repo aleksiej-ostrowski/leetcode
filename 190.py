@@ -11,15 +11,16 @@
 #                                #
 # ------------------------------ #  
 
-# https://stackoverflow.com/questions/63759207/circular-shift-of-a-bit-in-python-equivalent-of-fortrans-ishftc
-def ISHFTC(n, d, N):  
-    return ((n << d) % (1 << N)) | (n >> (N - d))
-
 class Solution:
     def reverseBits(self, n: int) -> int:
-        return ISHFTC(n, 1, 32)
+        res = 0
+        # print(f"{n:032b}")
+        for ind, x in enumerate([(n >> bit) & 1 for bit in range(0, 32)][::-1]):
+            if x == 1:
+                res |= 1 << ind
+        return res            
 
 if __name__ == '__main__':
-    print(Solution().reverseBits(34))
+    print(Solution().reverseBits(0b00000010100101000001111010011100))
     print('ok')
 

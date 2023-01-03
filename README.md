@@ -44,6 +44,7 @@ Some of my tasks
 | 168. Excel Sheet Column Title | https://leetcode.com/problems/excel-sheet-column-title | 
 | 169. Majority Element | https://leetcode.com/problems/majority-element | 
 | 171. Excel Sheet Column Number | https://leetcode.com/problems/excel-sheet-column-number | 
+| 190. Reverse Bits | https://leetcode.com/problems/reverse-bits | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

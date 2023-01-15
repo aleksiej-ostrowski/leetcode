@@ -48,6 +48,7 @@ Some of my tasks
 | 191. Number of 1 Bits | https://leetcode.com/problems/number-of-1-bits | 
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 
 | 203. Remove Linked List Elements | https://leetcode.com/problems/remove-linked-list-elements | 
+| 205. Isomorphic Strings | https://leetcode.com/problems/isomorphic-strings | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

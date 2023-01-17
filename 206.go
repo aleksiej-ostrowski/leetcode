@@ -79,6 +79,28 @@ func reverseList(head *ListNode) *ListNode {
 	return new_x 
 }
 
+/*
+func reverseList2(head *ListNode) *ListNode {
+
+	if (head == nil) {
+		return nil
+	}
+
+	x := head
+    head = nil
+
+	for {
+		if x == nil {
+			break
+		}
+        head = &ListNode{x.Val, head}
+        x = x.Next
+	}
+
+	return head 
+}
+*/
+
 func main() {
 	a := []int{1, 2, 3, 4}
 	printList(reverseList(ListCreate(a)))

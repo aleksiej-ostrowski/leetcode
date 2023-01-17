@@ -49,6 +49,7 @@ Some of my tasks
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 
 | 203. Remove Linked List Elements | https://leetcode.com/problems/remove-linked-list-elements | 
 | 205. Isomorphic Strings | https://leetcode.com/problems/isomorphic-strings | 
+| 206. Reverse Linked List | https://leetcode.com/problems/reverse-linked-list | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

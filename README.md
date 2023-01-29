@@ -53,6 +53,7 @@ Some of my tasks
 | 217. Contains Duplicate | https://leetcode.com/problems/contains-duplicate | 
 | 219. Contains Duplicate II | https://leetcode.com/problems/contains-duplicate-ii | 
 | 225. Implement Stack using Queues | https://leetcode.com/problems/implement-stack-using-queues | 
+| 226. Invert Binary Tree | https://leetcode.com/problems/invert-binary-tree | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

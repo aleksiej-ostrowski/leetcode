@@ -56,6 +56,7 @@ Some of my tasks
 | 226. Invert Binary Tree | https://leetcode.com/problems/invert-binary-tree | 
 | 228. Summary Ranges | https://leetcode.com/problems/summary-ranges | 
 | 231. Power of Two | https://leetcode.com/problems/power-of-two | 
+| 232. Implement Queue using Stacks | https://leetcode.com/problems/implement-queue-using-stacks | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

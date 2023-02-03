@@ -43,7 +43,7 @@ func exchangeLeftAndRight(root *TreeNode) {
 
 func invertTree(root *TreeNode) *TreeNode {
 	exchangeLeftAndRight(root)
-    return root
+	return root
 }
 
 func main() {

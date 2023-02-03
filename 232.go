@@ -60,8 +60,8 @@ func (this *MyStack) Size() int {
 }
 
 type MyQueue struct {
-	s1    MyStack
-	s2    MyStack
+	s1      MyStack
+	s2      MyStack
 	current int
 }
 
@@ -73,58 +73,57 @@ func Constructor() MyQueue {
 }
 
 func (this *MyQueue) Push(x int) {
-    this.s1.Push(x)
+	this.s1.Push(x)
 }
 
 func (this *MyQueue) Peek() int {
 
-    for {
-        ok, el := this.s1.Pop()
-        if ok {
-            this.s2.Push(el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s1.Pop()
+		if ok {
+			this.s2.Push(el)
+		} else {
+			break
+		}
+	}
 
-    _, res := this.s2.Top()
+	_, res := this.s2.Top()
 
-    for {
-        ok, el := this.s2.Pop()
-        if ok {
-            this.s1.Push(el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s2.Pop()
+		if ok {
+			this.s1.Push(el)
+		} else {
+			break
+		}
+	}
 
-    return res
+	return res
 }
-
 
 func (this *MyQueue) Pop() int {
 
-    for {
-        ok, el := this.s1.Pop()
-        if ok {
-            this.s2.Push(el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s1.Pop()
+		if ok {
+			this.s2.Push(el)
+		} else {
+			break
+		}
+	}
 
-    _, res := this.s2.Pop()
+	_, res := this.s2.Pop()
 
-    for {
-        ok, el := this.s2.Pop()
-        if ok {
-            this.s1.Push(el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s2.Pop()
+		if ok {
+			this.s1.Push(el)
+		} else {
+			break
+		}
+	}
 
-    return res
+	return res
 }
 
 func (this *MyQueue) Size() int {
@@ -137,24 +136,24 @@ func (this *MyQueue) Empty() bool {
 
 func (this *MyQueue) Print() {
 
-    for {
-        ok, el := this.s1.Pop()
-        if ok {
-            this.s2.Push(el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s1.Pop()
+		if ok {
+			this.s2.Push(el)
+		} else {
+			break
+		}
+	}
 
-    for {
-        ok, el := this.s2.Pop()
-        if ok {
-            this.s1.Push(el)
-            fmt.Println("el = ", el)
-        } else {
-            break
-        }
-    }
+	for {
+		ok, el := this.s2.Pop()
+		if ok {
+			this.s1.Push(el)
+			fmt.Println("el = ", el)
+		} else {
+			break
+		}
+	}
 }
 
 func main() {

@@ -61,22 +61,22 @@ func printList(l *ListNode) {
 
 func reverseList(head *ListNode) *ListNode {
 
-	if (head == nil) {
+	if head == nil {
 		return nil
 	}
 
 	x := head
-    var new_x *ListNode
+	var new_x *ListNode
 
 	for {
 		if x == nil {
 			break
 		}
-        new_x = &ListNode{x.Val, new_x}
-        x = x.Next
+		new_x = &ListNode{x.Val, new_x}
+		x = x.Next
 	}
 
-	return new_x 
+	return new_x
 }
 
 /*
@@ -97,7 +97,7 @@ func reverseList2(head *ListNode) *ListNode {
         x = x.Next
 	}
 
-	return head 
+	return head
 }
 */
 

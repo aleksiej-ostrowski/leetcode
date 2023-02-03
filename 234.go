@@ -61,24 +61,23 @@ func printList(l *ListNode) {
 
 func reverseList(head *ListNode) *ListNode {
 
-	if (head == nil) {
+	if head == nil {
 		return nil
 	}
 
 	x := head
-    var new_x *ListNode
+	var new_x *ListNode
 
 	for {
 		if x == nil {
 			break
 		}
-        new_x = &ListNode{x.Val, new_x}
-        x = x.Next
+		new_x = &ListNode{x.Val, new_x}
+		x = x.Next
 	}
 
-	return new_x 
+	return new_x
 }
-
 
 func equalList(headA, headB *ListNode) bool {
 
@@ -103,9 +102,9 @@ func equalList(headA, headB *ListNode) bool {
 			break
 		}
 
-        if xA.Val != xB.Val {
-            return false
-        }
+		if xA.Val != xB.Val {
+			return false
+		}
 
 		xA = xA.Next
 		xB = xB.Next
@@ -114,21 +113,19 @@ func equalList(headA, headB *ListNode) bool {
 	return true
 }
 
-
 func isPalindrome(head *ListNode) bool {
 
-    if head == nil {
-        return false
+	if head == nil {
+		return false
 	}
 
-    return equalList(head, reverseList(head))
+	return equalList(head, reverseList(head))
 }
-
 
 func main() {
 
-    // a := []int{1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3}
-    a := []int{1,2,2,1}
+	// a := []int{1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3}
+	a := []int{1, 2, 2, 1}
 
 	l := ListCreate(a)
 

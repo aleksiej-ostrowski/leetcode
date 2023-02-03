@@ -96,37 +96,37 @@ func removeElements2(head *ListNode, val int) *ListNode {
 		x = x.Next
 	}
 
-	return start 
+	return start
 }
 */
 
 func removeElements(head *ListNode, val int) *ListNode {
 
-	if (head == nil) {
+	if head == nil {
 		return nil
 	}
 
 	x := head
-    start := head
-    x_old := head
+	start := head
+	x_old := head
 
 	for {
 		if x == nil {
 			break
 		}
-        if x.Val != val {
-            x_old = x
-        } else {
-            x_old.Next = x.Next
-        }
-        x = x.Next
+		if x.Val != val {
+			x_old = x
+		} else {
+			x_old.Next = x.Next
+		}
+		x = x.Next
 	}
 
-    if start.Val == val {
-        return start.Next
-    }
+	if start.Val == val {
+		return start.Next
+	}
 
-	return start 
+	return start
 }
 
 func main() {

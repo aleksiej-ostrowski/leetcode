@@ -58,6 +58,7 @@ Some of my tasks
 | 231. Power of Two | https://leetcode.com/problems/power-of-two | 
 | 232. Implement Queue using Stacks | https://leetcode.com/problems/implement-queue-using-stacks | 
 | 234. Palindrome Linked List | https://leetcode.com/problems/palindrome-linked-list | 
+| 242. Valid Anagram | https://leetcode.com/problems/valid-anagram | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

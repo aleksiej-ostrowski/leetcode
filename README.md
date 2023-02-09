@@ -62,6 +62,7 @@ Some of my tasks
 | 257. Binary Tree Paths | https://leetcode.com/problems/binary-tree-paths | 
 | 263. Ugly Number | https://leetcode.com/problems/ugly-number | 
 | 268. Missing Number | https://leetcode.com/problems/missing-number | 
+| 278. First Bad Version | https://leetcode.com/problems/first-bad-version | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

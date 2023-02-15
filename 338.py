@@ -1,5 +1,15 @@
 """ 338.py """
 
+# ------------------------------ #
+#                                #
+#  version 0.0.1                 #
+#                                #
+#  Aleksiej Ostrowski, 2023      #
+#                                #
+#  https://aleksiej.com          #
+#                                #
+# ------------------------------ #  
+
 from typing import List
 
 # https://oeis.org/A000120/a000120.py.txt
@@ -24,9 +34,14 @@ def a000120_list(n):
         t += t
     return a
 
+
+def a000120_list2(n):
+    return [el.bit_count() for el in range(n)]
+
 class Solution:
     def countBits(self, n: int) -> List[int]:
-        return a000120_list(n + 1)
+        # return a000120_list(n + 1)
+        return a000120_list2(n + 1)
 
 if __name__ == '__main__':
     print(Solution().countBits(5))

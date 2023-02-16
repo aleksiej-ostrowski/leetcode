@@ -69,6 +69,7 @@ Some of my tasks
 | 303. Range Sum Query - Immutable | https://leetcode.com/problems/range-sum-query-immutable | 
 | 326. Power of Three | https://leetcode.com/problems/power-of-three | 
 | 338. Counting Bits | https://leetcode.com/problems/counting-bits | 
+| 342. Power of Four | https://leetcode.com/problems/power-of-four | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

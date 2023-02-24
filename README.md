@@ -70,6 +70,7 @@ Some of my tasks
 | 326. Power of Three | https://leetcode.com/problems/power-of-three | 
 | 338. Counting Bits | https://leetcode.com/problems/counting-bits | 
 | 342. Power of Four | https://leetcode.com/problems/power-of-four | 
+| 344. Reverse String | https://leetcode.com/problems/reverse-string | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

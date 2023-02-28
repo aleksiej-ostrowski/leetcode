@@ -1,4 +1,4 @@
-""" 342.py """
+""" 367.py """
 
 # ------------------------------ #
 #                                #
@@ -10,7 +10,7 @@
 #                                #
 # ------------------------------ #  
 
-from math import log2, trunc
+from math import trunc
 
 def mySqrt(x):
     if x == 1:

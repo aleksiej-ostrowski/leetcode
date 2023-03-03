@@ -77,6 +77,7 @@ Some of my tasks
 | 367. Valid Perfect Square | https://leetcode.com/problems/valid-perfect-square | 
 | 374. Guess Number Higher or Lower | https://leetcode.com/problems/guess-number-higher-or-lower | 
 | 383. Ransom Note | https://leetcode.com/problems/ransom-note | 
+| 387. First Unique Character in a String | https://leetcode.com/problems/first-unique-character-in-a-string | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

@@ -81,6 +81,7 @@ Some of my tasks
 | 389. Find the Difference | https://leetcode.com/problems/find-the-difference | 
 | 392. Is Subsequence | https://leetcode.com/problems/is-subsequence | 
 | 401. Binary Watch | https://leetcode.com/problems/binary-watch | 
+| 404. Sum of Left Leaves | https://leetcode.com/problems/sum-of-left-leaves | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

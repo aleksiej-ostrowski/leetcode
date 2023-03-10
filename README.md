@@ -85,5 +85,6 @@ Some of my tasks
 | 405. Convert a Number to Hexadecimal | https://leetcode.com/problems/convert-a-number-to-hexadecimal | 
 | 407. Trapping Rain Water II | https://leetcode.com/problems/trapping-rain-water-ii | 
 | 409. Longest Palindrome | https://leetcode.com/problems/longest-palindrome | 
+| 412. Fizz Buzz | https://leetcode.com/problems/fizz-buzz | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

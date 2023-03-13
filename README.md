@@ -15,6 +15,7 @@ Some of my tasks
 | 23. Merge k Sorted Lists | https://leetcode.com/problems/merge-k-sorted-lists |
 | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array |
 | 27. Remove Element | https://leetcode.com/problems/remove-element |
+| 28. Find the Index of the First Occurrence in a String | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string |
 | 35. Search Insert Position | https://leetcode.com/problems/search-insert-position |
 | 42. Trapping Rain Water | https://leetcode.com/problems/trapping-rain-water | 
 | 58. Length of Last Word | https://leetcode.com/problems/length-of-last-word | 
@@ -44,6 +45,7 @@ Some of my tasks
 | 168. Excel Sheet Column Title | https://leetcode.com/problems/excel-sheet-column-title | 
 | 169. Majority Element | https://leetcode.com/problems/majority-element | 
 | 171. Excel Sheet Column Number | https://leetcode.com/problems/excel-sheet-column-number | 
+| 175. Combine Two Tables | https://leetcode.com/problems/combine-two-tables | 
 | 190. Reverse Bits | https://leetcode.com/problems/reverse-bits | 
 | 191. Number of 1 Bits | https://leetcode.com/problems/number-of-1-bits | 
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 

@@ -90,5 +90,6 @@ Some of my tasks
 | 412. Fizz Buzz | https://leetcode.com/problems/fizz-buzz | 
 | 414. Third Maximum Number | https://leetcode.com/problems/third-maximum-number | 
 | 415. Add Strings | https://leetcode.com/problems/add-strings | 
+| 434. Number of Segments in a String | https://leetcode.com/problems/number-of-segments-in-a-string | 
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

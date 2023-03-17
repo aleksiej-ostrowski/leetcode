@@ -92,5 +92,6 @@ Some of my tasks
 | 415. Add Strings | https://leetcode.com/problems/add-strings | 
 | 434. Number of Segments in a String | https://leetcode.com/problems/number-of-segments-in-a-string | 
 | 441. Arranging Coins | https://leetcode.com/problems/arranging-coins | 
+| 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

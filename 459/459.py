@@ -21,7 +21,6 @@ class Solution:
         cnt = 0
         while True:
             if len_new_s > 0:
-                # if s[idx] == new_s[0] 
                 if s.find(new_s, idx, idx + len_new_s) == idx:
                     idx += len_new_s
                     cnt += len_new_s
@@ -35,9 +34,7 @@ class Solution:
                 new_s += s[idx]
                 len_new_s = len(new_s)
                 idx += 1
-            if idx >= len_s:
-                break
-            if len_new_s > len_s >> 1:
+            if (idx >= len_s) or (len_new_s > len_s >> 1):
                 break
         return (cnt > 0) and (cnt + len_new_s == len_s)
 

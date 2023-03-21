@@ -93,6 +93,7 @@ Some of my tasks
 | 434. Number of Segments in a String | https://leetcode.com/problems/number-of-segments-in-a-string | 
 | 441. Arranging Coins | https://leetcode.com/problems/arranging-coins | 
 | 448. Find All Numbers Disappeared in an Array | https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array | 
+| 459. Repeated Substring Pattern | https://leetcode.com/problems/repeated-substring-pattern | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

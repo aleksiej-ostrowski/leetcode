@@ -46,6 +46,7 @@ Some of my tasks
 | 169. Majority Element | https://leetcode.com/problems/majority-element | 
 | 171. Excel Sheet Column Number | https://leetcode.com/problems/excel-sheet-column-number | 
 | 175. Combine Two Tables | https://leetcode.com/problems/combine-two-tables | 
+| 176. Second Highest Salary | https://leetcode.com/problems/second-highest-salary | 
 | 190. Reverse Bits | https://leetcode.com/problems/reverse-bits | 
 | 191. Number of 1 Bits | https://leetcode.com/problems/number-of-1-bits | 
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 

@@ -48,6 +48,7 @@ Some of my tasks
 | 175. Combine Two Tables | https://leetcode.com/problems/combine-two-tables | 
 | 176. Second Highest Salary | https://leetcode.com/problems/second-highest-salary | 
 | 177. Nth Highest Salary | https://leetcode.com/problems/nth-highest-salary | 
+| 180. Consecutive Numbers | https://leetcode.com/problems/consecutive-numbers | 
 | 190. Reverse Bits | https://leetcode.com/problems/reverse-bits | 
 | 191. Number of 1 Bits | https://leetcode.com/problems/number-of-1-bits | 
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 

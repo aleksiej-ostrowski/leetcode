@@ -100,6 +100,7 @@ Some of my tasks
 | 463. Island Perimeter | https://leetcode.com/problems/island-perimeter | 
 | 476. Number Complement | https://leetcode.com/problems/number-complement | 
 | 482. License Key Formatting | https://leetcode.com/problems/license-key-formatting | 
+| 485. Max Consecutive Ones | https://leetcode.com/problems/max-consecutive-ones | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

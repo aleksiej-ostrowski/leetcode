@@ -104,6 +104,7 @@ Some of my tasks
 | 482. License Key Formatting | https://leetcode.com/problems/license-key-formatting | 
 | 485. Max Consecutive Ones | https://leetcode.com/problems/max-consecutive-ones | 
 | 492. Construct the Rectangle | https://leetcode.com/problems/construct-the-rectangle | 
+| 495. Teemo Attacking | https://leetcode.com/problems/teemo-attacking | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

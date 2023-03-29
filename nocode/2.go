@@ -57,18 +57,19 @@ func main() {
 
     var counter int64 = 0
     data := make(chan string)
-
-    for ind:=0;ind<N_STRS;ind++ {
-        data <- RandStringRunes(rand.Intn(20))  
-    }
-
-    defer close(data)
  
     var wg sync.WaitGroup
 
     start := time.Now()
 
-    for ind:=0;ind<10;ind++ {
+    go func() {
+        for ind:=0;ind<N_STRS;ind++ {
+            data <- RandStringRunes(rand.Intn(20))  
+        }
+        defer close(data)
+    }()
+
+    for ind:=0;ind<100;ind++ {
         wg.Add(1)
         go func() {
             var sm int64 = 0

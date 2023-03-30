@@ -34,15 +34,11 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 		if val, ok := memory[el]; ok {
 			if val == -1 {
 				memory[el] = el
-				continue
 			}
 		}
 
 		for key, val := range memory {
-			if val == -1 {
-				continue
-			}
-			if el > val {
+			if (val == key) && (el > val) {
 				memory[key] = el
 			}
 		}
@@ -62,6 +58,6 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 }
 
 func main() {
-	fmt.Println(nextGreaterElement([]int{4, 1, 2}, []int{1, 3, 4, 2}))
+	fmt.Println(nextGreaterElement([]int{4, 1, 2}, []int{1, 2, 3, 4})) // -1,2,3
 	fmt.Println("ok")
 }

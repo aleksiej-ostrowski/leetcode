@@ -50,6 +50,7 @@ Some of my tasks
 | 177. Nth Highest Salary | https://leetcode.com/problems/nth-highest-salary | 
 | 180. Consecutive Numbers | https://leetcode.com/problems/consecutive-numbers | 
 | 181. Employees Earning More Than Their Managers | https://leetcode.com/problems/employees-earning-more-than-their-managers | 
+| 182. Duplicate Emails | https://leetcode.com/problems/duplicate-emails | 
 | 190. Reverse Bits | https://leetcode.com/problems/reverse-bits | 
 | 191. Number of 1 Bits | https://leetcode.com/problems/number-of-1-bits | 
 | 202. Happy Number | https://leetcode.com/problems/happy-number | 

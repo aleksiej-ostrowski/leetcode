@@ -49,8 +49,25 @@ func printLinkNode(node *TLinkNode) {
     }
 }
 
+func invertLinkNode(node *TLinkNode) *TLinkNode {
+    new_node := node
+    res_node := &TLinkNode{nil, 0}
+    for {
+        if new_node == nil {
+            break
+        }
+        res_node = &TLinkNode{res_node, new_node.value}
+        new_node = new_node.next
+    }
+    return res_node
+}
+
 func main() {
     new_node := prepareLinkNode([]int{3,10,34,51,101,202,150})
+    fmt.Println("Data: ")
     printLinkNode(new_node)
+    res_node := invertLinkNode(new_node)
+    fmt.Println("Result: ")
+    printLinkNode(res_node)
 	fmt.Println("ok")
 }

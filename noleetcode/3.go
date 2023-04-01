@@ -52,11 +52,17 @@ func printLinkNode(node *TLinkNode) {
 func invertLinkNode(node *TLinkNode) *TLinkNode {
     new_node := node
     res_node := &TLinkNode{nil, 0}
+    cnt := 0
     for {
         if new_node == nil {
             break
         }
-        res_node = &TLinkNode{res_node, new_node.value}
+        if cnt != 0 {
+            res_node = &TLinkNode{res_node, new_node.value}
+        } else {
+            res_node = &TLinkNode{nil, new_node.value}
+        }
+        cnt += 1
         new_node = new_node.next
     }
     return res_node

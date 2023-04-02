@@ -107,6 +107,7 @@ Some of my tasks
 | 492. Construct the Rectangle | https://leetcode.com/problems/construct-the-rectangle | 
 | 495. Teemo Attacking | https://leetcode.com/problems/teemo-attacking | 
 | 496. Next Greater Element I | https://leetcode.com/problems/next-greater-element-i | 
+| 500. Keyboard Row | https://leetcode.com/problems/keyboard-row | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

@@ -111,6 +111,7 @@ Some of my tasks
 | 500. Keyboard Row | https://leetcode.com/problems/keyboard-row | 
 | 501. Find Mode in Binary Search Tree | https://leetcode.com/problems/find-mode-in-binary-search-tree | 
 | 504. Base 7 | https://leetcode.com/problems/base-7 | 
+| 506. Relative Ranks | https://leetcode.com/problems/relative-ranks | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

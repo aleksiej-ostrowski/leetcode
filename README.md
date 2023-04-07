@@ -114,6 +114,7 @@ Some of my tasks
 | 504. Base 7 | https://leetcode.com/problems/base-7 | 
 | 506. Relative Ranks | https://leetcode.com/problems/relative-ranks | 
 | 507. Perfect Number | https://leetcode.com/problems/perfect-number | 
+| 520. Detect Capital | https://leetcode.com/problems/detect-capital | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

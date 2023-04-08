@@ -12,17 +12,12 @@
 
 from collections import defaultdict
 
+# this is not my solution
 class Solution:
     def findLUSlength(self, a: str, b: str) -> int:
-        dict_a = defaultdict(lambda: '')
-        dict_b = defaultdict(lambda: '')
-        for idx, el_a in enumerate(a):
-            dict_a[el_a] = idx
-        for idx, el_b in enumerate(b):
-            dict_a[el_b] = idx
-
-
-
+        if a == b:
+            return -1
+        return max(len(a),len(b))
 
 
 if __name__ == '__main__':

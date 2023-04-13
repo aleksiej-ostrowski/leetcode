@@ -119,6 +119,7 @@ Some of my tasks
 | 530. Minimum Absolute Difference in BST | https://leetcode.com/problems/minimum-absolute-difference-in-bst | 
 | 541. Reverse String II | https://leetcode.com/problems/reverse-string-ii | 
 | 543. Diameter of Binary Tree | https://leetcode.com/problems/diameter-of-binary-tree | 
+| 551. Student Attendance Record I | https://leetcode.com/problems/student-attendance-record-i | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

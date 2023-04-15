@@ -121,6 +121,7 @@ Some of my tasks
 | 543. Diameter of Binary Tree | https://leetcode.com/problems/diameter-of-binary-tree | 
 | 551. Student Attendance Record I | https://leetcode.com/problems/student-attendance-record-i | 
 | 557. Reverse Words in a String III | https://leetcode.com/problems/reverse-words-in-a-string-iii | 
+| 561. Array Partition | https://leetcode.com/problems/array-partition | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

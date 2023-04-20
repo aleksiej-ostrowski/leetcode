@@ -124,6 +124,7 @@ Some of my tasks
 | 561. Array Partition | https://leetcode.com/problems/array-partition | 
 | 563. Binary Tree Tilt | https://leetcode.com/problems/binary-tree-tilt | 
 | 566. Reshape the Matrix | https://leetcode.com/problems/reshape-the-matrix | 
+| 572. Subtree of Another Tree | https://leetcode.com/problems/subtree-of-another-tree | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

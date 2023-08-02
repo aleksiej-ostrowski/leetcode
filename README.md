@@ -128,6 +128,7 @@ Some of my tasks
 | 575. Distribute Candies | https://leetcode.com/problems/distribute-candies | 
 | 594. Longest Harmonious Subsequence | https://leetcode.com/problems/longest-harmonious-subsequence | 
 | 598. Range Addition II | https://leetcode.com/problems/range-addition-ii | 
+| 599. Minimum Index Sum of Two Lists | https://leetcode.com/problems/minimum-index-sum-of-two-lists | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

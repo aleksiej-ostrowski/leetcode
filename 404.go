@@ -34,9 +34,9 @@ func sumOfLeftLeaves_recc(root *TreeNode, what int) int {
 	}
 	var res int = 0
 
-    if (root.Left == nil) && (root.Right == nil) && (what == 1) {
-	    res += root.Val
-    }
+	if (root.Left == nil) && (root.Right == nil) && (what == 1) {
+		res += root.Val
+	}
 
 	if root.Left != nil {
 		res += sumOfLeftLeaves_recc(root.Left, 1)
@@ -47,11 +47,9 @@ func sumOfLeftLeaves_recc(root *TreeNode, what int) int {
 	return res
 }
 
-
 func sumOfLeftLeaves(root *TreeNode) int {
 	return sumOfLeftLeaves_recc(root, 0)
 }
-
 
 func main() {
 	tree1 := &TreeNode{1, nil, nil}

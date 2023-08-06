@@ -16,7 +16,7 @@ package main
 
 import (
 	"fmt"
-    "os"
+	"os"
 )
 
 /**
@@ -40,7 +40,7 @@ func moda(data []int) []int {
 	for key, el := range memory {
 		if el > fq {
 			fq = el
-            res = []int{key}
+			res = []int{key}
 		} else if el == fq {
 			res = append(res, key)
 		}
@@ -73,8 +73,8 @@ func findMode(root *TreeNode) []int {
 }
 
 func main() {
-    // fmt.Println(moda([]int{0,2,6,4,2,7,9,8,6}))
-    // os.Exit(1)
+	// fmt.Println(moda([]int{0,2,6,4,2,7,9,8,6}))
+	// os.Exit(1)
 	t3 := &TreeNode{7, nil, nil}
 	t1 := &TreeNode{5, nil, t3}
 	t2 := &TreeNode{5, nil, nil}

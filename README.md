@@ -130,6 +130,7 @@ Some of my tasks
 | 598. Range Addition II | https://leetcode.com/problems/range-addition-ii | 
 | 599. Minimum Index Sum of Two Lists | https://leetcode.com/problems/minimum-index-sum-of-two-lists | 
 | 605. Can Place Flowers | https://leetcode.com/problems/can-place-flowers | 
+| 606. Construct String from Binary Tree | https://leetcode.com/problems/construct-string-from-binary-tree | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

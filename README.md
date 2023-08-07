@@ -62,6 +62,7 @@ Some of my tasks
 | 206. Reverse Linked List | https://leetcode.com/problems/reverse-linked-list | 
 | 217. Contains Duplicate | https://leetcode.com/problems/contains-duplicate | 
 | 219. Contains Duplicate II | https://leetcode.com/problems/contains-duplicate-ii | 
+| 222. Count Complete Tree Nodes | https://leetcode.com/problems/count-complete-tree-nodes | 
 | 225. Implement Stack using Queues | https://leetcode.com/problems/implement-stack-using-queues | 
 | 226. Invert Binary Tree | https://leetcode.com/problems/invert-binary-tree | 
 | 228. Summary Ranges | https://leetcode.com/problems/summary-ranges | 

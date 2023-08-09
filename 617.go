@@ -29,24 +29,19 @@ type TreeNode struct {
 }
 
 func mergeTrees(root1 *TreeNode, root2 *TreeNode) *TreeNode {
-	v := 0
-	if root1 != nil {
-		v += root1.Val
-	}
-
-	if root2 != nil {
-		v += root2.Val
-	}
-
 	if root1 != nil || root2 != nil {
+
+		v := 0
 		var l1, l2, r1, r2 *TreeNode
 
 		if root1 != nil {
+			v += root1.Val
 			l1 = root1.Left
 			r1 = root1.Right
 		}
 
 		if root2 != nil {
+			v += root2.Val
 			l2 = root2.Left
 			r2 = root2.Right
 		}

@@ -135,6 +135,7 @@ Some of my tasks
 | 617. Merge Two Binary Trees | https://leetcode.com/problems/merge-two-binary-trees | 
 | 628. Maximum Product of Three Numbers | https://leetcode.com/problems/maximum-product-of-three-numbers | 
 | 637. Average of Levels in Binary Tree | https://leetcode.com/problems/average-of-levels-in-binary-tree | 
+| 643. Maximum Average Subarray I | https://leetcode.com/problems/maximum-average-subarray-i | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

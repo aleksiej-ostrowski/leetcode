@@ -140,6 +140,7 @@ Some of my tasks
 | 653. Two Sum IV - Input is a BST | https://leetcode.com/problems/two-sum-iv-input-is-a-bst | 
 | 657. Robot Return to Origin | https://leetcode.com/problems/robot-return-to-origin | 
 | 661. Image Smoother | https://leetcode.com/problems/image-smoother | 
+| 671. Second Minimum Node In a Binary Tree | https://leetcode.com/problems/second-minimum-node-in-a-binary-tree | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

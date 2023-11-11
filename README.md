@@ -143,6 +143,7 @@ Some of my tasks
 | 671. Second Minimum Node In a Binary Tree | https://leetcode.com/problems/second-minimum-node-in-a-binary-tree | 
 | 674. Longest Continuous Increasing Subsequence | https://leetcode.com/problems/longest-continuous-increasing-subsequence | 
 | 680. Valid Palindrome II | https://leetcode.com/problems/valid-palindrome-ii | 
+| 682. Baseball Game | https://leetcode.com/problems/baseball-game | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |

@@ -144,6 +144,7 @@ Some of my tasks
 | 674. Longest Continuous Increasing Subsequence | https://leetcode.com/problems/longest-continuous-increasing-subsequence | 
 | 680. Valid Palindrome II | https://leetcode.com/problems/valid-palindrome-ii | 
 | 682. Baseball Game | https://leetcode.com/problems/baseball-game | 
+| 693. Binary Number with Alternating Bits | https://leetcode.com/problems/binary-number-with-alternating-bits | 
 | 1114. Print in Order | https://leetcode.com/problems/print-in-orde |
 | 1115. Print FooBar Alternately | https://leetcode.com/problems/print-foobar-alternately |
 | 1622. Fancy Sequence | https://leetcode.com/problems/fancy-sequence |
